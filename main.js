@@ -28,8 +28,8 @@ function AnalyzeJSON (jsonData)
 
 function main()
 {
-    fileInput = "/Users/oleksandrprokopovic/Desktop/WEB_LAB3/data.json";
-    fileOutPut = "/Users/oleksandrprokopovic/Desktop/WEB_LAB3/output.txt";
+    fileInput = "data.json";
+    fileOutPut = "output.txt";
 
     try{
         const dataJSON = ReadFile(fileInput);
